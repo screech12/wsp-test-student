@@ -17,6 +17,7 @@ CSSresetr.com
   	background-color:rgba(0,0,255,0.5);	 
   }
  /* body or a id="wrapper*/
+ /*Universal Reset CSSresetr.com {padding: 0; margin: 0;}*/
   body{
  	color: #323232;
 	font:100%/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -27,3 +28,14 @@ CSSresetr.com
 	padding: 0; 
 	background: #87d4f2;/*light blue*/
 }
+/*------------------Form____________________________*/
+ input:focus{
+		background:#FFFF00;
+ }
+ .form{
+ 	background-color: #d0000d;
+ 	width: 57.279166666667%;/*550px/960px*/
+ 	margin: 0 auto;
+ 	padding: 25px;
+ 	border: 10px solid #fff;/*10px/550px*/
+ }
