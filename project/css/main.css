@@ -1,11 +1,9 @@
 /*Color Swatch------
 #87d4f2;/*light blue*/
+brown  #c69c6d
 -----------*/
-/* 
-Universal Reset
-CSSresetr.com
-*/
-* {
+/* --Universal Reset CSSresetr.com--*/
+ {
 	padding: 0;
 	margin: 0;
 	}
@@ -26,9 +24,18 @@ CSSresetr.com
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0; 
-	background: #87d4f2;/*light blue*/
+	background: #c69c6d;/*brown*/
 }
-/*------------------Form____________________________*/
+header{
+  	background-color:rgba(0,0,255,0.5);	 
+  }
+ /*----------------Header Adj------------------------------- */
+  h1, h2, h3, h4, h5, h6{
+	 margin:0;
+	 padding: 15px 02.0833333333333% 0px;/*20px/960px*/
+  }
+ 
+/*------------------Form-------------------------------------*/
  input:focus{
 		background:#FFFF00;
  }
@@ -39,3 +46,18 @@ CSSresetr.com
  	padding: 25px;
  	border: 10px solid #fff;/*10px/550px*/
  }
+ /* =Media Queries
+ ======================================================*/
+ 
+ /* Tablet Portrait size to standard 960 (devices and browsers)*/
+ 	@media screen and (min-width:768px) and (max-width:959px){
+ 	}
+ 	}
+ 	 /* Mobile Landscape Size to Tablet Portrait(devices and browsers)*/
+ 	@media only screen and (min-width:480px) and (max-width:767px){
+ 	}
+ 	}
+ 	 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
+ 	@media only screen and (max-width:479px){
+ 	}
+}
