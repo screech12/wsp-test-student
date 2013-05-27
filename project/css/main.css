@@ -1,14 +1,28 @@
 
 
 /*--Universal Reset cssresetr.com--*/
- 
+ /*----Color Swatch--------
+#87d4f2;/*light blue
+brown  #c69c6d
+blk    #000
+wht    #fff
+orange #ff8c00
+grey # c2c2c2
+--------*/
+
   
 #wrapper{
   	width:90%;/*960px*/
 	margin: 0 auto;  
   }
   header{
-  	background-color: #ffffff;	 
+  	background-color: #fff;	 
+  }
+  #logo{
+  max-width:100%;
+	margin-top: 0%;
+ 
+	float: left;
   }
   #sub_header{
   	background-color: #ff8c00; /*orange*/
@@ -29,18 +43,23 @@
 	padding: 0; 
 	background: #c69c6d;/*brown*/
 }
+/*----------------Special request------------------------------- */
+ .stop_float{
+	clear: both;
+ }
 /*----------------horizontal menu------------------------------- */
  nav#menu ul{
-	width:62.5%;/*600px/960px*/
+	width:540px;
 	margin:0 auto;
 	list-style-type:none; 
 	padding:0;
 	overflow:hidden;	
 }	
 nav#menu li{
-	width:20.0833333333333%;/*200px/960px*/
+	width:150px;
 	text-align:left;
 	float: left;
+	background:#d0000d;/*red*/
 }
 nav#menu a{
 	text-decoration:none;
@@ -62,7 +81,7 @@ nav#menu a{
  	color:#00FF00;
  	background:#40E0D0;
  	}
- 
+
  /*----------------Header Adj------------------------------- */
   h1, h2, h3, h4, h5, h6{
 	 margin:0;
@@ -128,12 +147,104 @@ nav#menu a{
  	font-size:12px;
     font: Verdana;
  }
- /* =Media Queries
- ======================================================*/
  /*----------------Footer------------------------------- */ 
   footer{clear:both;
 	margin-top:1em;
 	background:#999;
  }
+  /* =Media Queries
+ ======================================================*/
+ 
+ /* Tablet Portrait size to standard 960 (devices and browsers)*/
+ 	@media screen and (min-width:768px) and (max-width:959px){
+ 		#wrapper{
+ 			background-color: #509cff;
+ }
+		  
+ 		#main_gallery{
+ 		float: left;		 
+ 			width: 100%;
+ 			
+ }
+  		#main_gallery a{
+			width: 80%;
+ }
+ 		#main_gallery li{
+ 			margin-left: 10px;
+ }
+ }	
+ /* Mobile Landscape Size to Tablet Portrait(devices and browsers)*/
+ 	@media only screen and (min-width:480px) and (max-width:767px){
+ 		#wrapper{
+ 			background-color: #ff7743;
+ } 
+ 		#par {
+    		-moz-column-count: 1;
+    		-moz-column-gap: 0
+ }
+		img#first{
+			float: none;
+ }
+ 		#main_gallery{
+ 			margin-left: 35px;
+ }
+		#main_gallery a{
+			float: none;
+			width: 90%;
+ }
+ 		footer{
+  			font-family: 'Pacifico', cursive;
+ }
+ 		img#first{
+ 			border: 5px solid #fff;
+ 			float: none;
+ } 
+ 		textarea{
+ 			width: 100%;
+ }	
+ 		.table{
+ 			width: 90%;
+ }
+ }
+ 	 
+ /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
+ 	@media only screen and (max-width:479px){
+ 		#wrapper{
+ 			background-color: #d593ff;
+ /* additional options img#first{display: none;}section, aside {float:none;}*/
+ }
+ 		#par {
+    		-moz-column-count: 1;
+    		-moz-column-gap: 0
+ }
+		img#first{
+			display: none;
+ }
+ 		#main_gallery{
+ 			margin-left: 35px;
+ }
+ 		#main_gallery a{
+			width: 90%;
+ }
+ 		.form{
+ 			background-color: #d0000d;
+ 			width: 80%; 
+ 			padding: 25px;
+ 			border: 5px solid #fff;/*10px/550px*/
+ }
+ 		textarea{
+ 			width: 100%;
+ }	
+ 		.table{
+ 			width: 90%;
+ 			font-size:12px;
+ }
+		footer{
+  			font-family: 'Pacifico', cursive;
+ }
+ }
+ 
+ 
+ 
  
   
