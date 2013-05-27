@@ -11,10 +11,10 @@
   	background-color: #ffffff;	 
   }
   #sub_header{
-  	background-color: #ff8c00;
+  	background-color: #ff8c00; /*orange*/
   }
   #address{
-  	background-color: #c2c2c2;
+  	background-color: #c2c2c2;/*grey*/
   }
   
  /* body or a id="wrapper*/
@@ -73,17 +73,14 @@ nav#menu a{
   font:100%/1.5 Verdana;
   font-size:18px;
   }
-   
-  #virus{
+  /*-------Content------*/
+   .content{
   color: #fff;
   font-size:12px;
   font:Verdana;
+  background: #000; /*blk*/
   }
-  #par{
-  	color: #fff;
-  font-size:12px;
-   font: Verdana;
-  }
+  
   /*---------------- Images on Page------------------------------- */
  img#first{
  	border: 5px solid #000;
@@ -102,30 +99,34 @@ nav#menu a{
  	border: 5px solid #333;
  	width: 39.583333333333%;/*380px/960px*/
  } 
- 	 #virus{
- 	 border: 5px solid #000;
- 	 background: #000; /*blk*/
- 	 }
- 
+ img#fifth{
+ 	border: 5px solid #333;
+ 	width: 39.583333333333%;/*380px/960px*/
+  }
+ .blk{
+ 	color: #000; /*blk*/
+ }
 /*------------------Form-------------------------------------*/
- .form{
- 	background-color: #d0000d;
+ .form{ 
  	width: 57.279166666667%;/*550px/960px*/
  	margin: 0 auto;
  	padding: 25px;
- 	border: 10px solid #fff;/*10px/550px*/
+  
  }
   /*----------------Three section Paragraph------------------------------- */
- #par{
+ 	#par{
  	-moz-column-count:3;
 	-moz-column-gap: 25px;
-	background: #000; /*blk*/
-	border:5px #000000 solid; /*boarder value in px, thin, medium, or thick/*/ 
+	background: #000; /*blk*/	 
+   color: #fff;
+   font-size:12px;
+   font:Verdana;
+  
  
  }
  #last_par{
  	font-size:12px;
-   font: Verdana;
+    font: Verdana;
  }
  /* =Media Queries
  ======================================================*/
