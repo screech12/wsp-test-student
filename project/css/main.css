@@ -8,34 +8,106 @@
 	margin: 0 auto;  
   }
   header{
-  	background-color:rgba(0,0,255,0.5);	 
+  	background-color: #ffffff;	 
   }
   #sub_header{
-  	background: #ff8c00;
+  	background-color: #ff8c00;
   }
+  #address{
+  	background-color: #c2c2c2;
+  }
+  
  /* body or a id="wrapper*/
  /*Universal Reset CSSresetr.com {padding: 0; margin: 0;}*/
   body{
  	color: #323232;
-	font:100%/1.5 Verdana, Arial, Helvetica, sans-serif;
-	font-size:16px;
+	font:100%/1.5 Arial, Helvetica, sans-serif;
+	font-size:18px;
 	line-height: 1.5;
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0; 
 	background: #c69c6d;/*brown*/
 }
+/*----------------horizontal menu------------------------------- */
+ nav#menu ul{
+	width:62.5%;/*600px/960px*/
+	margin:0 auto;
+	list-style-type:none; 
+	padding:0;
+	overflow:hidden;	
+}	
+nav#menu li{
+	width:20.0833333333333%;/*200px/960px*/
+	text-align:left;
+	float: left;
+}
+nav#menu a{
+	text-decoration:none;
+	display: block;
+	height: 30px;
+	line-height:30px;
+	text-align:center;
+/*used default color blue*/
+ }
+ nav#menu a:visited{
+ 	color:blue;
+ 	background:yellow;
+ }
+ nav#menu a:hover{
+ 	color:#fff;/*white*/
+	background:#d0000d;/*red*/
+ }
+ nav#menu a:active{
+ 	color:#00FF00;
+ 	background:#40E0D0;
+ 	}
  
  /*----------------Header Adj------------------------------- */
   h1, h2, h3, h4, h5, h6{
 	 margin:0;
 	 padding: 15px 02.0833333333333% 0px;/*20px/960px*/
   }
+  h2, h3, h4, h5, h6{
+  color: #fff;
+  font:100%/1.5 Verdana;
+  font-size:18px;
+  }
+   
+  #virus{
+  color: #fff;
+  font-size:12px;
+  font:Verdana;
+  }
+  #par{
+  	color: #fff;
+  font-size:12px;
+   font: Verdana;
+  }
+  /*---------------- Images on Page------------------------------- */
+ img#first{
+ 	border: 5px solid #000;
+ 	float: left;
+ 	width: 39.583333333333%;/*380px/960px*/
+ } 
+   img#second{
+ 	border: 5px solid #333;
+ 	width: 39.583333333333%;/*380px/960px*/
+ } 
+  img#third{
+ 	border: 5px solid #333;
+ 	width: 39.583333333333%;/*380px/960px*/
+ } 
+  img#forth{
+ 	border: 5px solid #333;
+ 	width: 39.583333333333%;/*380px/960px*/
+ } 
+ 	 #virus{
+ 	 border: 5px solid #000;
+ 	 background: #000; /*blk*/
+ 	 }
  
 /*------------------Form-------------------------------------*/
- input:focus{
-		background:#FFFF00;
- }
  .form{
  	background-color: #d0000d;
  	width: 57.279166666667%;/*550px/960px*/
@@ -47,11 +119,20 @@
  #par{
  	-moz-column-count:3;
 	-moz-column-gap: 25px;
-	background: #D3D3D3; /*grey*/
+	background: #000; /*blk*/
 	border:5px #000000 solid; /*boarder value in px, thin, medium, or thick/*/ 
-	border-radius:1.041666666667%; /*10px/960px*/
+ 
+ }
+ #last_par{
+ 	font-size:12px;
+   font: Verdana;
  }
  /* =Media Queries
  ======================================================*/
+ /*----------------Footer------------------------------- */ 
+  footer{clear:both;
+	margin-top:1em;
+	background:#999;
+ }
  
   
