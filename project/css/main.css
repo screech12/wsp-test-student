@@ -12,17 +12,16 @@ grey # c2c2c2
 
   
 #wrapper{
-  	width:90%;/*960px*/
+  	width:100%;/*960px*/
 	margin: 0 auto;  
   }
   header{
   	background-color: #fff;	 
   }
   #logo{
-  max-width:100%;
 	margin-top: 0%;
- 
 	float: left;
+	width: 60px;
   }
   #sub_header{
   	background-color: #ff8c00; /*orange*/
@@ -36,7 +35,7 @@ grey # c2c2c2
   body{
  	color: #323232;
 	font:100%/1.5 Arial, Helvetica, sans-serif;
-	font-size:18px;
+	font-size:16px;
 	line-height: 1.5;
 	max-width: 960px;
 	margin: 0 auto;
@@ -49,14 +48,14 @@ grey # c2c2c2
  }
 /*----------------horizontal menu------------------------------- */
  nav#menu ul{
-	width:540px;
+	width:750px;
 	margin:0 auto;
 	list-style-type:none; 
 	padding:0;
 	overflow:hidden;	
 }	
 nav#menu li{
-	width:150px;
+	width:125px;
 	text-align:left;
 	float: left;
 	background:#d0000d;/*red*/
@@ -64,8 +63,8 @@ nav#menu li{
 nav#menu a{
 	text-decoration:none;
 	display: block;
-	height: 30px;
-	line-height:30px;
+	height: 90px;
+	line-height:90px;
 	text-align:center;
 /*used default color blue*/
  }
@@ -98,11 +97,13 @@ nav#menu a{
   font-size:12px;
   font:Verdana;
   background: #000; /*blk*/
+   
+  border:5px #000 solid; /*boarder value in px, thin, medium, or thick/*/ 
   }
   
   /*---------------- Images on Page------------------------------- */
  img#first{
- 	border: 5px solid #000;
+ 	 
  	float: left;
  	width: 39.583333333333%;/*380px/960px*/
  } 
@@ -125,6 +126,13 @@ nav#menu a{
  .blk{
  	color: #000; /*blk*/
  }
+ /*----------------Special request------------------------------- */
+ .stop_float{
+	clear: both;
+ }
+ img{
+ 	max-width: 100%;
+ }
 /*------------------Form-------------------------------------*/
  .form{ 
  	width: 57.279166666667%;/*550px/960px*/
@@ -136,7 +144,10 @@ nav#menu a{
  	#par{
  	-moz-column-count:3;
 	-moz-column-gap: 25px;
+	border:5px #000 solid; /*boarder value in px, thin, medium, or thick/*/ 
 	background: #000; /*blk*/	 
+	padding: 5px;
+	border:25px;
    color: #fff;
    font-size:12px;
    font:Verdana;
