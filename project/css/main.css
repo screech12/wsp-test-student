@@ -19,9 +19,8 @@ grey # c2c2c2
   	background-color: #fff;	 
   }
   #logo{
-	margin-top: 0%;
+	 margin-top: 0%;
 	float: left;
- 
  
   }
   #sub_header{
@@ -108,21 +107,12 @@ nav#menu a{
  	float: left;
  	width: 39.583333333333%;/*380px/960px*/
  } 
-   img#second{
+   img#second,img#third,img#forth,img#fifth{
  	border: 5px solid #333;
  	width: 39.583333333333%;/*380px/960px*/
  } 
-  img#third{
- 	border: 5px solid #333;
- 	width: 39.583333333333%;/*380px/960px*/
- } 
-  img#forth{
- 	border: 5px solid #333;
- 	width: 39.583333333333%;/*380px/960px*/
- } 
- img#fifth{
- 	border: 5px solid #333;
- 	width: 39.583333333333%;/*380px/960px*/
+  .one, .two, .three, .four{
+  	border: 5px solid #333;
   }
  .blk{
  	color: #000; /*blk*/
