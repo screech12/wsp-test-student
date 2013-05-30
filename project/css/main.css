@@ -25,6 +25,9 @@ grey # c2c2c2
   }
   #sub_header{
   	background-color: #ff8c00; /*orange*/
+  	height: 50px;
+  	line-height:50px;
+	text-align:center;
   }
   #address{
   	background-color: #c2c2c2;/*grey*/
@@ -41,7 +44,8 @@ grey # c2c2c2
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0; 
-	background: #c69c6d;/*brown*/
+	background-color: #c69c6d;/*brown*/
+	background: url(images/background.png);
 }
 /*----------------Special request------------------------------- */
  .stop_float{
@@ -109,7 +113,7 @@ nav#menu a{
  img#first{	 
  	float: right;
  	width: 39.583333333333%;/*380px/960px*/
- 	height: 300px;
+ 	height: 310px;
  	 
  } 
    img#second,img#third,img#forth,img#fifth{
@@ -123,6 +127,16 @@ nav#menu a{
  .blk{
  	color: #000; /*blk*/
  }
+ .links ul{
+ 	width:960px;
+ }
+ .links
+ li{
+	width:300px;
+	text-align:left;
+	float: left;
+	background:#d0000d;/*red*/
+}
  /*----------------Special request------------------------------- */
  .stop_float{
 	clear: both;
@@ -162,6 +176,9 @@ nav#menu a{
   footer{clear:both;
 	margin-top:1em;
 	background:#999;
+	height: 50px;
+  	line-height:50px;
+	text-align:center;
  }
   /* =Media Queries
  ======================================================*/
