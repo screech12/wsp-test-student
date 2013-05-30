@@ -28,6 +28,7 @@ grey # c2c2c2
   }
   #address{
   	background-color: #c2c2c2;/*grey*/
+   
   }
   
  /* body or a id="wrapper*/
@@ -97,19 +98,24 @@ nav#menu a{
   font-size:12px;
   font:Verdana;
   background: #000; /*blk*/
-   
-  border:5px #000 solid; /*boarder value in px, thin, medium, or thick/*/ 
+  border:5px #fff solid; /*boarder value in px, thin, medium, or thick/*/ 
+  padding: 0px 0px 10px;
   }
   
   /*---------------- Images on Page------------------------------- */
- img#first{
- 	 
- 	float: left;
+  img{
+ 	max-width: 100%;
+ }
+ img#first{	 
+ 	float: right;
  	width: 39.583333333333%;/*380px/960px*/
+ 	height: 300px;
+ 	 
  } 
    img#second,img#third,img#forth,img#fifth{
  	border: 5px solid #333;
- 	width: 39.583333333333%;/*380px/960px*/
+ 	width: 300px;/*380px/960px*/
+ 	margin: 0px 3px 0px;
  } 
   .one, .two, .three, .four{
   	border: 5px solid #333;
@@ -121,9 +127,7 @@ nav#menu a{
  .stop_float{
 	clear: both;
  }
- img{
- 	max-width: 100%;
- }
+ 
 /*------------------Form-------------------------------------*/
  .form{ 
  	width: 57.279166666667%;/*550px/960px*/
@@ -131,6 +135,11 @@ nav#menu a{
  	padding: 25px;
   
  }
+ .input{
+ 	width: 200px;
+ 	margin: 0px 0px 0px 20px;
+ }
+ 
   /*----------------Three section Paragraph------------------------------- */
  	#par{
  	-moz-column-count:3;
