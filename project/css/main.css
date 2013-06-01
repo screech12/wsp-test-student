@@ -81,7 +81,7 @@ nav#menu a{
  }
  nav#menu a:active{
  	color:#fff;
- 	background:#00BFFF;/*blue*/
+ 	background:#00bfff;/*blue*/
  	}
 
  /*----------------Header Adj------------------------------- */
@@ -156,7 +156,7 @@ nav#menu a{
  
   /*----------------Three section Paragraph------------------------------- */
  	#par{
- 	-moz-column-count:3;
+ 	-moz-column-count:2;
 	-moz-column-gap: 25px;
 	border:5px #000 solid; /*boarder value in px, thin, medium, or thick/*/ 
 	background: #000; /*blk*/	 
