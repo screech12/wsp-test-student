@@ -117,9 +117,11 @@ nav#menu a{
  	border: 5px solid #333;
  	width: 300px;/*380px/960px*/
  	margin: 0px 3px 0px;
+ 	 
  } 
   .one, .two, .three, .four{
-  	border: 5px solid #333;
+  	border: 5px solid #fff;
+  	float: left;
   }
  .blk{
  	color: #000; /*blk*/
@@ -172,6 +174,24 @@ nav#menu a{
  	font-size:12px;
     font: Verdana;
  }
+ /*-----------------About Page-------------------*/
+ 
+ /*-------------------Free web Design------------*/
+ .content_web{
+  color: #fff;
+  font-size:12px;
+  font:Verdana;
+  background: #000; /*blk*/
+  border:5px #000 solid; /*boarder value in px, thin, medium, or thick/--*/ 
+  padding: 0px 0px 10px;
+   
+  }
+  .two
+  clear: both;
+ 
+ /*-------------------Services------------*/
+ /*-------------------Contact Us------------*/
+ /*-------------------Guess Book------------*/
  /*----------------Footer------------------------------- */ 
   footer{clear:both;
 	margin-top:1em;
