@@ -200,7 +200,7 @@ nav#menu a{
   /*border:10px #000 solid; border value in px, thin, medium, or thick/--*/ 
     padding: 0px 0px 5px 320px;
   }
-  .tune_up, .data, .web_site{
+  .tune_up, .data, .web_site, .used, .items{
   	float:left;
   	-moz-column-count:3;
 	-moz-column-gap: 25px; 
@@ -214,13 +214,13 @@ nav#menu a{
   }
   .geek{
  background: #000; /*blk*/	
-	font-size:16px;
+	font-size:18px;
 	color: #c2c2c2;
     font:Verdana; 
     width: 960px;
     height: 10px;
-     
-    margin:
+    text-align:center;
+    
 
   } 
  
