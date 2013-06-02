@@ -6,7 +6,7 @@ blk    #000
 wht    #fff
 orange #ff8c00
 grey #c2c2c2
-#d0000d;/*red*/
+red #d0000d;
 blue #00BFFF
 --------*/
 
@@ -122,6 +122,7 @@ nav#menu a{
   .one, .two, .three, .four{
   	border: 5px solid #fff;
   	float: left;
+  	margin: 5px;
   }
  .blk{
  	color: #000; /*blk*/
@@ -177,23 +178,48 @@ nav#menu a{
  /*-----------------About Page-------------------*/
  
  /*-------------------Free web Design------------*/
- .content_web{
+  .two, .three, .four{
+  clear: both;
+ }
+ .content_web_address{
   color: #fff;
   font-size:12px;
   font:Verdana;
   background: #000; /*blk*/
-  border:5px #000 solid; /*boarder value in px, thin, medium, or thick/--*/ 
-  padding: 0px 0px 10px;
-   
+  /*border:10px #000 solid; border value in px, thin, medium, or thick/--*/ 
+  padding: 30px;   
   }
-  .two
-  clear: both;
+   .content_web_host{
+  color: #fff;
+  font-size:12px;
+  font:Verdana;
+  background: #000; /*blk*/
+  /*border:10px #000 solid; border value in px, thin, medium, or thick/--*/ 
+     padding: 30px;
+  }
+   .content_web_design{
+   color: #fff;
+   font-size:12px;
+  font:Verdana;
+  background: #000; /*blk*/
+  /*border:10px #000 solid; border value in px, thin, medium, or thick/--*/ 
+   padding: 0px 0px 5px 320px;
+  }
+   .content_web_maintenance{
+    color: #fff;
+   font-size:12px;
+  font:Verdana;
+  background: #000; /*blk*/
+  /*border:10px #000 solid; border value in px, thin, medium, or thick/--*/ 
+    padding: 0px 0px 5px 320px;
+  }
  
  /*-------------------Services------------*/
  /*-------------------Contact Us------------*/
  /*-------------------Guess Book------------*/
  /*----------------Footer------------------------------- */ 
-  footer{clear:both;
+  footer{
+  	clear:both;
 	margin-top:1em;
 	background:#999;
 	height: 50px;
