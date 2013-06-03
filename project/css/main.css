@@ -236,6 +236,9 @@ nav#menu a{
  .input{
  	width: 200px;
  	margin: 0px 0px 0px 20px;
+ 	#state{
+ 	width: 200px;
+ 	}
  }
  /*-------------------Guess Book------------*/
  /*----------------Footer------------------------------- */ 
